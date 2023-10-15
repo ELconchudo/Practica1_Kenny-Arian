@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Página principal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        
+        header {
+            background-color: blue;
+            color: #fff;
+            padding: 20px;
+        }
+
+       
+        footer {
+            background-color: blue;
+            color: #fff;
+            padding: 10px;
+            margin-top: auto; 
+        }
+
+       
+        button {
+            background-color: goldenrod;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        #logo {
+            width: 40px; 
+            margin-right: 10px;
+        }
+
+        .contenedor_principal {
+            display: flex;
+            flex-grow: 1;
+        }
+
+        .descripcion {
+            flex: 1;
+            padding: 20px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.jpg" id="logo">
+        <button> Home </button>
+        <button> Tienda </button>
+        <button> Conócenos </button>
+        <button> Contacto </button>
+        <button> Carrito </button>
+    </header>
+
+    <div class="contenedor_principal">
+        <div class="descripcion">
+            <h2>Texto de Prueba</h2>
+            <p>
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate atque, sint suscipit vero repudiandae nam. Hic possimus quaerat deleniti eaque ullam error, molestiae minus commodi, nulla vel rerum nobis dicta.
+            </p>
+        </div>
+    </div>
+    <footer>
+        <button>Contacto</button>
+        <button>FAQs</button>
+        <button>Cookies</button>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Contacto</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+    
+            header {
+                background-color: blue;
+                color: #fff;
+                padding: 20px;
+            }
+    
+            footer {
+                background-color: blue;
+                color: #fff;
+                padding: 10px;
+                margin-top: auto; 
+            }
+    
+           
+            button {
+                background-color: goldenrod;
+                color: #fff;
+                border: none;
+                padding: 10px 20px;
+                margin: 5px;
+                cursor: pointer;
+            }
+    
+            #logo {
+                width: 40px; 
+                margin-right: 10px;
+            }
+    
+            .contenedor_formulario {
+            display: flex;
+            flex-grow: 1;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        form {
+            width: 60%;
+        }
+            
+        </style>
+    </head>
+    <body>
+        <header>
+            <img src="logo.jpg" id="logo">
+            <button> Home </button>
+            <button> Tienda </button>
+            <button> Conócenos </button>
+            <button> Contacto </button>
+            <button> Carrito </button>
+        </header>
+    
+        <div class="contenedor_formulario">
+            <form>
+                <h2>Formulario de Contacto</h2>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required><br><br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required><br><br>
+                <label for="asunto">Asunto:</label>
+                <input type="text" id="asunto" name="asunto" required><br><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea><br><br>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    
+        <footer>
+            <button>Contacto</button>
+            <button>FAQs</button>
+            <button>Cookies</button>
+        </footer>
+    </body>
+    </html>
+</html>
