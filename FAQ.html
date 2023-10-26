@@ -1,74 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" type="text/css" href="FAQstyle.css">
     <meta charset="UTF-8">
     <title>FAQS</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            flex-direction: column;
-            min-height: 100vh;
-        }
-
-        
-        header {
-            background-color: blue;
-            color: #fff;
-            padding: 20px;
-        }
-
        
-        footer {
-            background-color: blue;
-            color: #fff;
-            padding: 10px;
-            margin-top: auto; 
-        }
-
-       
-        button {
-            background-color: goldenrod;
-            color: #fff;
-            border: none;
-            padding: 10px 20px;
-            margin: 5px;
-            cursor: pointer;
-        }
-
-        #logo {
-            width: 40px; 
-            margin-right: 10px;
-        }
-
-        .Pregunta {
-            display: flex;
-            flex-grow: 1;
-        }
-
-        .preguntaTexto {
-            flex: 1;
-            padding: 20px;
-        }
-
         
     </style>
 </head>
 <body>
     <header>
-        <img src="logo.jpg" id="logo">
-        <button> Home </button>
-        <button> Tienda </button>
-        <button> Conócenos </button>
-        <button> Contacto </button>
-        <button> Carrito </button>
+        <img src="cara-logo.png" id="logo">
+        <img src="carrito.png" id="carrito">
+       <a href="Menu.html"> <button> Home </button></a>
+       <a href="Tienda.html"> <button> Tienda </button></a>
+       <a href="Conócenos.html"> <button> Conócenos </button></a>
+       <a href="Contacto.html"> <button> Contacto </button></a>
     </header>
 
     <div class="Pregunta">
-        <div class="product-text">
+        <div class="preguntaTexto">
             <h2>Pregunta 1</h2>
             <p>
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate atque, sint suscipit vero repudiandae nam. Hic possimus quaerat deleniti eaque ullam error, molestiae minus commodi, nulla vel rerum nobis dicta.
@@ -86,7 +38,7 @@
     </div>
 
     <div class="Pregunta">
-        <div class="product-text">
+        <div class="preguntaTexto">
             <h2>Pregunta 3</h2>
             <p>
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate atque, sint suscipit vero repudiandae nam. Hic possimus quaerat deleniti eaque ullam error, molestiae minus commodi, nulla vel rerum nobis dicta.
@@ -94,8 +46,7 @@
         </div>
     </div>
     <footer>
-        <button>Contacto</button>
-        <button>FAQs</button>
+        <a href="Contacto.html"> <button>Contacto</button></a>
         <button>Cookies</button>
     </footer>
 </body>
