@@ -1,22 +1,24 @@
 body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
+    color: black;
     margin: 0;
     padding: 0;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url("ConócenosFondo.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+   background: linear-gradient(45deg, salmon, #FFEC51);
+   
 }
+
+
 
 
 header {
     background-color: black;
     color: #fff;
     padding: 20px;
+    opacity: 0.9;
 }
 
 
@@ -50,6 +52,21 @@ button {
 #logo {
     width: 40px; 
     margin-right: 10px;
+}
+
+#ninos {
+    float: none;
+    width: 600px;
+}
+
+#impuestos {
+    float: none;
+    width: 600px;
+}
+
+#maltrato {
+    float: none;
+    width: 600px;
 }
 
 .datos {
