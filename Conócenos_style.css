@@ -1,0 +1,80 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   background: linear-gradient(45deg, salmon, #FFEC51);
+   
+}
+
+
+
+
+header {
+    background-color: black;
+    color: #fff;
+    padding: 20px;
+    opacity: 0.9;
+}
+
+
+footer {
+    background-color: black;
+    color: #fff;
+    padding: 10px;
+    margin-top: auto; 
+}
+
+img {
+    width: 40px; 
+    float: left;
+}
+
+#carrito {
+    float: right;
+}
+
+
+button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: salmon;
+    color: #fff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#logo {
+    width: 40px; 
+    margin-right: 10px;
+}
+
+#ninos {
+    float: none;
+    width: 600px;
+}
+
+#impuestos {
+    float: none;
+    width: 600px;
+}
+
+#maltrato {
+    float: none;
+    width: 600px;
+}
+
+.datos {
+    display: flex;
+    flex-grow: 1;
+}
+
+.datosTexto {
+    flex: 1;
+    padding: 20px;
+}

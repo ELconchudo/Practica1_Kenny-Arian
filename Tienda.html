@@ -1,90 +1,76 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="tiendastyle.css">
         <meta charset="UTF-8">
         <title>Tienda</title>
-        <style>
-            body {
-                font-family: Arial, sans-serif;
-                text-align: center;
-                margin: 0;
-                padding: 0;
-                display: flex;
-                flex-direction: column;
-                min-height: 100vh;
-            }
-    
-           
-            header {
-                background-color: blue;
-                color: #fff;
-                padding: 20px;
-            }
-    
-           
-            footer {
-                background-color: blue;
-                color: #fff;
-                padding: 10px;
-                margin-top: auto; 
-            }
-    
-           
-            button {
-                background-color: goldenrod;
-                color: #fff;
-                border: none;
-                padding: 10px 20px;
-                margin: 5px;
-                cursor: pointer;
-            }
-    
-            #logo {
-                width: 40px; 
-                margin-right: 10px;
-            }
-    
-            .contenedor_producto {
-                display: flex;
-                flex-grow: 1;
-            }
-    
-            .imagen_producto {
-                max-width: 50%;
-                max-height: 300px;
-            }
-    
-            .descripcion {
-                flex: 1;
-                padding: 20px;
-            }
-    
-            
-        </style>
     </head>
     <body>
         <header>
-            <img src="logo.jpg" id="logo">
-            <button> Home </button>
-            <button> Tienda </button>
-            <button> Conócenos </button>
-            <button> Contacto </button>
-            <button> Carrito </button>
+            <img src="cara-logo.png" id="logo">
+            <img src="carrito.png" id="carrito">
+            <a href="Menu.html"><button> Home </button></a>
+            <a href="Conócenos.html"><button> Conócenos </button></a>
+            <a href="Contacto.html"><button> Contacto </button></a>
         </header>
     
         <div class="contenedor_producto">
-            <img src="imagen_del_producto.jpg" class="imagen_producto">
-            <div class="descripcion">
-                <h2>Producto de Ejemplo</h2>
-                <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos autem vitae perspiciatis, corrupti temporibus eius cupiditate aliquid quidem nam odit iste, enim sunt labore itaque saepe minima eveniet suscipit quam!
-                </p>
+            <div class="item">
+<figure>
+<img src="item1.jpg" alt="producto"/>
+
+
+</figure>
+            <div class="info-producto">
+                <h2>Gafas azules</h2>
+                <p class="precio">50€</p>
+                <button class="boton-comprar">Comprar</button>
+
+
             </div>
-        </div>
+            </div>
+
+            <div class="item">
+                <figure>
+                <img src="item2.jpg" alt="producto"/>
+                
+                
+                </figure>
+                            <div class="info-producto">
+                                <h2>Gafas Golden</h2>
+                                <p class="precio">70€</p>
+                                <button class="boton-comprar">Comprar</button>
+                
+                
+                            </div>
+                            </div>
+
+                            <div class="item">
+                                <figure>
+                                <img src="item3.jpg" alt="producto"/>
+                                
+                                
+                                </figure>
+                                            <div class="info-producto">
+                                                <h2>Gafas Aviador (Edición Especial)</h2>
+                                                <p class="precio">80€</p>
+                                                <button class="boton-comprar">Comprar</button>
+                                
+                                
+                                            </div>
+                                            </div>
+
+            
+
+            
+
+                    
+                                    
+                                </div>
     
         <footer>
-            <button>Contacto</button>
-            <button>FAQs</button>
+            <a href="Contacto.html"> <button>Contacto</button></a>
+       <a href="FAQ.html"> <button>FAQs</button></a>
             <button>Cookies</button>
         </footer>
     </body>
